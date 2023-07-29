@@ -51,10 +51,12 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
       >
-        lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud
+      As an aspiring Fullstack Web Developer, Data Science & ML/AI Learner,&nbsp;
+      I am driven by a passion for technology, data. With a strong&nbsp;
+      foundation in web development and data science,&nbsp;
+      I aim to craft innovative solutions that combine cutting-edge&nbsp;
+      technologies with engaging content to make a meaningful&nbsp;
+      impact in the digital world.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
