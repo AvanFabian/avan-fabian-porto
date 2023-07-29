@@ -1,4 +1,4 @@
-# 3D Portfolio by ReactJs with Vite and Three.js library
+# 3D Portfolio by React.js with Vite and Three.js library
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
