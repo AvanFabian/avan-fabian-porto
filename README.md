@@ -1,4 +1,4 @@
-# React + Vite
+# 3D Portfolio Website crafted using React.js with Vite and Three.js library
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
