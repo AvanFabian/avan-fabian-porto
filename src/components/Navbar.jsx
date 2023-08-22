@@ -27,13 +27,11 @@ const Navbar = () => {
           <img src={fabian} alt="fabian" className='w-12 h-12' />
           <p className='text-white text-[18px] 
           font-bold cursor-pointer flex'>
-            Avan &nbsp;
-            <span className='md:block hidden'>| Fabian
-            </span>
+            Avan &nbsp;| Fabian
           </p>
         </Link>
         { /* sm:flex is too show the menu when screen size is 640px and above */ }
-        <ul className='list-none hidden sm:flex
+        <ul className='list-none hidden lg:flex
         flex-row gap-10'> 
           {navLinks.map((link) => (
             <li
@@ -51,7 +49,7 @@ const Navbar = () => {
           ))}
         </ul>
         { /* div below is for mobile screen */ }
-        <div className='sm:hidden flex flex-1
+        <div className='lg:hidden flex flex-1
         justify-end items-center'>
           <img
             src={toggle ? close : menu} // if toggle is true, show close icon, else show menu icon

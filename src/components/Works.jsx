@@ -6,7 +6,6 @@ import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
-import { playarrow } from "../assets"
 
 const ProjectCard = ( {index, name, description,
 tags, demologo, demourl, image, source_code_link} ) => {
@@ -78,9 +77,7 @@ tags, demologo, demourl, image, source_code_link} ) => {
         </div>
       </Tilt>
     </motion.div>
-  )  
-
-}
+)}
 
 const Works = () => {
   return (
@@ -130,4 +127,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, 'work')
+export default SectionWrapper(Works, 'project')

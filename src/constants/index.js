@@ -25,6 +25,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    dicoding,
   } from "../assets";
   
   export const navLinks = [
@@ -33,8 +34,12 @@ import {
       title: "About",
     },
     {
-      id: "work",
+      id: "project",
       title: "Project",
+    },
+    {
+      id: "certification",
+      title: "Certification",
     },
     {
       id: "contact",
@@ -56,11 +61,23 @@ import {
   const certificate = [
     {
       company: "Dicoding",
-      icon: web,
+      icon: dicoding,
+      desc: "Earned [Tech Certificate Name] from [Certification Organization] in [Year]."
     },
     {
       company: "Dicoding",
-      icon: mobile,
+      icon: dicoding,
+      desc: "Earned [Tech Certificate Name] from [Certification Organization] in [Year]."
+    },
+    {
+      company: "Dicoding",
+      icon: dicoding,
+      desc: "Earned [Tech Certificate Name] from [Certification Organization] in [Year]."
+    },
+    {
+      company: "Dicoding",
+      icon: dicoding,
+      desc: "Earned [Tech Certificate Name] from [Certification Organization] in [Year]."
     },
   ];
   
