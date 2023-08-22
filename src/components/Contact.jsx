@@ -42,7 +42,7 @@ const Contact = () => {
       formRef.current,
       "vNmY8jwBUKYwTsWNk"
     ) .then((result) => {
-      console.log(result.text)
+      // console.log(result.text)
       setLoading(false)
       alert("Thank you for your message, I will get back to you soon.")
       setForm({
@@ -51,7 +51,7 @@ const Contact = () => {
         message: ""
       })
     }, (error) => {
-      console.log(error.text)
+      // console.log(error.text)
       setLoading(false)
       alert ("An error occurred, please try again.")
     })
