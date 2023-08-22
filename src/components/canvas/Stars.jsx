@@ -20,9 +20,9 @@ const Stars = (props) => {
 
   return (
     // group is a container for other objects
-    <group rotation={[0, 0, Math.PI / 4]}>    
+    <group>    
       <Points ref={ref} positions={sphere} 
-      stride={3} frustumCulled {...props}>
+      frustumCulled {...props}>
         <PointMaterial 
         transparent 
         color='#f272c8' 
@@ -40,7 +40,7 @@ const StarsCanvas = () => {
     <div className='w-full h-auto absolute
     inset-0 z-[-1]'>
       <Canvas camera={{ position:[0, 0, 1] }}>
-        <Suspense fallback={null}>
+        <Suspense>
           <Stars />
         </Suspense>
 

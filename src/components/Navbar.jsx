@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // code above is link component from react-router-dom
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { fabian, menu, close } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState(''); // set active to empty string
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav 
       className={`${styles.paddingX} w-full flex 
-      items-center py-5 fixed top-0 z-20 bg-primary`}
+      items-center py-[8px] fixed top-0 z-20 bg-primary`}
     >
       <div className='w-full flex justify-between
       items-center max-w-7xl mx-auto'>
@@ -24,11 +24,11 @@ const Navbar = () => {
             window.scrollTo(0, 0); // scroll to top when clicked
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          <img src={fabian} alt="fabian" className='w-12 h-12' />
           <p className='text-white text-[18px] 
           font-bold cursor-pointer flex'>
             Avan &nbsp;
-            <span className='sm:block hidden'>| Fabian
+            <span className='md:block hidden'>| Fabian
             </span>
           </p>
         </Link>

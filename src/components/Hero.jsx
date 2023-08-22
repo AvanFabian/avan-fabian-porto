@@ -1,4 +1,4 @@
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 import { styles } from "../styles"
 
@@ -19,11 +19,10 @@ const Hero = () => {
         <div>
         { /* &apos; is for escaping ' sign */ }
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span 
-          className="text-[#915eff]">Fabian</span></h1>
+          className="text-[#3d468ffb]">Fabian</span></h1>
           <p className={`${styles.heroSubText} mt-2
           text-white-100`}>
-            I develop a&nbsp;Fullstack Web Apps <br className="sm:block hidden"/>
-            and&nbsp;Go Deep Into Data Science
+            I develop a&nbsp;Fullstack Web and <br />Mobile Apps
             <br className="sm:block hidden"/>
           </p>
         </div>
@@ -31,7 +30,8 @@ const Hero = () => {
         </div>
 
         { /* use absolute to position in the middle */ }
-        <div className="absolute xs:bottom-1
+        {/* Below is the moving mouse scroll */}
+        {/* <div className="absolute xs:bottom-1
         bottom-6 w-full flex justify-center
         items-center">
           <a href="#about">
@@ -52,7 +52,7 @@ const Hero = () => {
               />
             </div>
           </a>
-        </div>
+        </div> */}
     </section>
   )
 }

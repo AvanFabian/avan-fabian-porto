@@ -1,6 +1,7 @@
 // Purpose: Exporting constants for the website.
 import {
     mobile,
+    playarrow,
     backend,
     creator,
     web,
@@ -33,7 +34,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Project",
     },
     {
       id: "contact",
@@ -43,16 +44,23 @@ import {
   
   const services = [
     {
-      title: "Fullstack Web Developer",
+      title: "Fullstack Web Development",
       icon: web,
     },
     {
-      title: "Junior Data Scientist",
+      title: "UI & UX Design",
       icon: mobile,
     },
+  ];
+
+  const certificate = [
     {
-      title: "Content Creator",
-      icon: creator,
+      company: "Dicoding",
+      icon: web,
+    },
+    {
+      company: "Dicoding",
+      icon: mobile,
     },
   ];
   
@@ -195,68 +203,50 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Jentara",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, learn, and configuring Indonesia cultures.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "Team Project",
+          color: "",
         },
       ],
+      demologo: playarrow,
+      demourl: "https://github.com/",
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Cry Cast",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Cry Cast is a cryptocurrency prediction platform that uses advanced machine learning techniques to help users make profitable investments. The platform combines real-time data and expert analysis to classify and predict market trends with high accuracy.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "Team Project",
+          color: "",
         },
       ],
+      demologo: playarrow,
+      demourl: "https://github.com/",
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AvanFabian/cry-cast.git",
     },
     {
-      name: "Trip Guide",
+      name: "Realtime Message",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Personal Project",
+          color: "",
         },
       ],
+      demologo: playarrow,
+      demourl: "https://github.com/",
       image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, certificate, technologies, experiences, testimonials, projects };

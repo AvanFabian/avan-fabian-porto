@@ -6,9 +6,10 @@ import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
+import { playarrow } from "../assets"
 
 const ProjectCard = ( {index, name, description,
-tags, image, source_code_link} ) => {
+tags, demologo, demourl, image, source_code_link} ) => {
   return (
     <motion.div variants={fadeIn("up", "spring",
      index * 0.5, 0.75)}>
@@ -33,14 +34,14 @@ tags, image, source_code_link} ) => {
         justify-end m-3 card-img_hover">
           {/* BELOW IS FOR GITHUB LINK */}
           <div
-            onClick={() => window.open(source_code_link, "_blank")}
+            onClick={() => window.open(demourl, "_blank")}
             className="black-gradient w-10 h-10 rounded-full
             flex justify-center mr-2 items-center cursor-pointer"
           >
             <img 
-              src={github}
-              alt="github"
-              className="w-1/2 h-1/2 object-contain"
+              src={demologo}
+              alt="playarrow"
+              className="w-1/2 h-1/2 object-contain bg-[#ffffff] rounded-full"
             />
           </div>
           {/* BELOW IS FOR LIVE DEMO LINK */}
@@ -129,4 +130,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, 'works')
+export default SectionWrapper(Works, 'work')
