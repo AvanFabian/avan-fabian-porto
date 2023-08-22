@@ -31,8 +31,6 @@ const Hero = () => {
         { /* div below is for the canvas */}
         </div>
 
-        <ComputersCanvas />
-
         { /* use absolute to position in the middle */ }
         <div className="absolute xs:bottom-1
         bottom-6 w-full flex justify-center

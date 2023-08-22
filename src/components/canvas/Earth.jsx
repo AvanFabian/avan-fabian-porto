@@ -33,7 +33,7 @@ const EarthCanvas = () => {
     >
     {/* Suspense is to ensure that the model is loaded 
     before rendering */}
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls 
           autoRotate
           enableZoom={false}
